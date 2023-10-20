@@ -10,3 +10,8 @@
 ### [Connect-4](Connect-4)
 - A terminal version of the game connect-4.
 
+### [Lab-3](Lab-3)
+- A program that uses classes and loops to store information about different movies.
+
+### [Lab-4](Lab-4)
+- A program created to sort and search through objects in an array.
