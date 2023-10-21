@@ -1,5 +1,5 @@
 # C++ Projects
-## These Projects include personal projects along with labs and projects from the (Intro to C++) and (Intermediate C++) courses.
+## These Projects include some personal projects along with labs and assignments from university courses.
 
 ### [Assignment-3](Assignment-3)
 - Tracks employee income over time utilizing user input and calculations.
