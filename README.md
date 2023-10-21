@@ -15,3 +15,6 @@
 
 ### [Lab-4](Lab-4)
 - A program created to sort and search through objects in an array.
+
+### [Lab-5](Lab-5)
+- A program that can read or write information of player highscores to a CSV file database.
