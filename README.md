@@ -18,3 +18,6 @@
 
 ### [Lab-5](Lab-5)
 - A program that can read or write information of player highscores to a CSV file database.
+
+### [Lab-6](Lab-6)
+- A program that stores info of different types of technological items using objects and object inheritance.
