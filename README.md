@@ -7,6 +7,14 @@
 ### [Assignment-6](Assignment-6)
 - A program reads and writes to CSV file datasets. Takes the data and writes it to an array of objects, sorts the array, and then writes the sorted array to a new CSV file.
 
+### [Bank](Bank)
+- A program which simulates a banking system which a user can withdraw money, deposit money, and see account details. 
+-	The bank stores a database of different users and their data. The user data is stored in an external file which is used by the program.
+-	The user enters their name and password to find their information. 
+-	When an admin is logged in, they can view the banks total value and users.
+-	Register new users and check for duplicate accounts.
+
+
 ### [Connect-4](Connect-4)
 - A terminal version of the game connect-4.
 
@@ -21,3 +29,5 @@
 
 ### [Lab-6](Lab-6)
 - A program that stores info of different types of technological items using objects and object inheritance.
+
+
