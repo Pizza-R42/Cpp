@@ -59,7 +59,7 @@ void User::ViewInfo() {
 
 
 void Admin::ViewInfo() {
-	cout << "Bank Value: " << Bank::GetBankValue() << endl;
+	cout << "Bank Value: $" << Bank::GetBankValue() << endl;
 	cout << "User Count: " << Bank::GetUserCount() << endl;
 
 }

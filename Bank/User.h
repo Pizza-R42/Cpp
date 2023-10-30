@@ -25,8 +25,6 @@ public:
 };
 
 class Admin : public User {
-protected:
-	
 public:
 	Admin(string name, float money, string password);
 	void ViewInfo() override;

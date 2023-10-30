@@ -6,7 +6,7 @@
 using namespace std;
 
 string adminName = "admin";
-string adminPassword = "password";
+string adminPassword = "123";
 
 ifstream fileInput;
 ofstream fileOutput;
@@ -14,9 +14,6 @@ string path = "Users.csv";
 
 User** users;
 User* currentUser;
-
-
-
 
 bool HomeOptions();
 void UpdateFile();
@@ -29,7 +26,6 @@ void PopulateUsers() {
 
     fileInput.open(path);
     if (!fileInput.is_open()) {
-        cout << "Create\n";
         UpdateFile();
         PopulateUsers();
         return;
@@ -259,6 +255,7 @@ bool TakeLoan() {
 }
 
 void Logout() {
+    UpdateFile();
     currentUser = nullptr;
     cout << "You Have Logged Out\n\n";
     while (!HomeOptions()) {}
@@ -393,19 +390,25 @@ bool HomeOptions() {
     return true;
 }
 
-void SortByValue() {
+void SortByValue() {//Bubble sort
     int size = Bank::GetUserCount();
+    bool swapped;
     for (int i = 0; i < size; i++) {
+        swapped = false;
         for (int j = 1; j < size - i - 1; j++) {
             if (users[j]->GetMoney() < users[j + 1]->GetMoney()) {
                 swap(users[j], users[j + 1]);
+                swapped = true;
             }
+        }
+        if (swapped == false) {
+            break;
         }
     }
 }
 
 
-//Bank
+//Bank Class
 void Bank::CalculateUserCount() {
     int count = 0;
     fileInput.open(path);
@@ -448,12 +451,10 @@ bool Bank::RemoveMoney(float amount) {
 
 int main()
 {
-    
     PopulateUsers();
     while (!HomeOptions()) {
         cout << "Invalid Option!\n\n";
     }
-
 
     UpdateFile();
     for (int i = 0; i < Bank::GetUserCount(); i++) {

@@ -8,7 +8,6 @@ private:
 	static int userCount;
 
 public:
-	
 	static float GetBankValue();
 	static void AddMoney(float amount);
 	static bool RemoveMoney(float amount);
