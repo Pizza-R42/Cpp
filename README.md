@@ -7,6 +7,9 @@
 ### [Assignment-6](Assignment-6)
 - A program reads and writes to CSV file datasets. Takes the data and writes it to an array of objects, sorts the array, and then writes the sorted array to a new CSV file.
 
+### [Assignment-11](Assignment-11)
+- Uses inheritance and abstraction to store different class types in a single array and call the different funcitons of each class.
+
 ### [Bank](Bank)
 - A program which simulates a banking system which a user can withdraw money, deposit money, and see account details. 
 -	The bank stores a database of different users and their data. The user data is stored in an external file which is used by the program.
