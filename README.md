@@ -10,6 +10,9 @@
 ### [Assignment-11](Assignment-11)
 - Uses inheritance and abstraction to store different class types in a single array and call the different funcitons of each class.
 
+### [Assignment-12](Assignment-12)
+- A program using multiple inheritance to store different classes of people like students and teachers in a single array.
+
 ### [Bank](Bank)
 - A program which simulates a banking system which a user can withdraw money, deposit money, and see account details. 
 -	The bank stores a database of different users and their data. The user data is stored in an external file which is used by the program.
