@@ -20,7 +20,11 @@
 -	When an admin is logged in, they can view the banks total value and users.
 -	Register new users and check for duplicate accounts.
 
-
+### [Casino](Casino)
+- A program where multiple users at a time can play and bet on blackjack, roulette or slots in the terminal.
+- Players can bet money on games until they run out.
+- Players can withdraw money from an atm built using the Bank project
+  
 ### [Connect-4](Connect-4)
 - A terminal version of the game connect-4.
 
