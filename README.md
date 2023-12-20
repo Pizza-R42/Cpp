@@ -40,4 +40,7 @@
 ### [Lab-6](Lab-6)
 - A program that stores info of different types of technological items using objects and object inheritance.
 
+### [Lab-7](Lab-7)
+- A program that uses container classes from the STL library to store and manage data from an ecternal file.
+
 
