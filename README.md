@@ -43,4 +43,7 @@
 ### [Lab-7](Lab-7)
 - A program that uses container classes from the STL library to store and manage data from an ecternal file.
 
+### [PA1](PA1)
+- This program implements a stack and queue class along with selection and insertion sorting.
+
 
