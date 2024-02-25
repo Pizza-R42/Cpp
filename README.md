@@ -46,4 +46,7 @@
 ### [PA1](PA1)
 - This program implements a stack and queue class along with selection and insertion sorting.
 
+### [PA2](PA2)
+- This program implemts a linked list, dynamyic array, and a stack and queue, along with a binary search.
+
 
