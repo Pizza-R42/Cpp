@@ -47,6 +47,16 @@
 - This program implements a stack and queue class along with selection and insertion sorting.
 
 ### [PA2](PA2)
-- This program implemts a linked list, dynamyic array, and a stack and queue, along with a binary search.
+- This program implements a linked list, dynamyic array, and a stack and queue, along with a binary search.
+
+### [PA3](PA3)
+- This program uses recursion to implement mergesort and binary search methods.
+
+### [PA4](PA4)
+- This program implements hashing and binary search tree "BST" functions.
+
+
+
+
 
 
