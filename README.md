@@ -55,6 +55,9 @@
 ### [PA4](PA4)
 - This program implements hashing and binary search tree "BST" functions.
 
+### [PA5](PA)
+- This program implements tree traversals, sets and maps, topological sorting, BFS and Trie methods.
+
 
 
 
