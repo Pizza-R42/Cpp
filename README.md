@@ -57,6 +57,9 @@
 
 ### [PA5](PA)
 - This program implements tree traversals, sets and maps, topological sorting, BFS and Trie methods.
+  
+### [PA6](P6)
+- This program implements a heap, priority queue, dijkstra’s algorithm, union-find, and kruskal’s algorithm.
 
 
 
